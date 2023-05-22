@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 300vh;
+}
+
+.header {
+    width: 100vw;
+    height: 30vh;
+    background-color: aqua;
+    top 0;
+}
+
+.body {
+width: 100vw;
+height: 300vh;
+}
+
+.sidebar {
+    width: 30vw;
+    height: 100vh;
+    position: sticky;
+    background-color: pink;
+    top: 0;
+    bottom: 0;
+}
+
+.content {
+    width: 70vw;
+    height: 100vh;
+    background-color: red;
+    margin-top: -100vh;
+    margin-left: 30vw; 
+}
+
+.one {
+    position: relative;
+	top: 10vh;
+	left: 10px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #00cc00;
+	width: 30px;
+	height: 30px;
+	padding: 30px;
+	opacity: 0.9;
+}
